@@ -9,7 +9,6 @@ public class usuarioModelo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
     private Integer idtbl_usario;
-    private String rol;
     private String usuario;
     private String contrasena;
 
@@ -19,14 +18,6 @@ public class usuarioModelo {
 
     public void setId_usario(Integer id_usario) {
         this.idtbl_usario = id_usario;
-    }
-
-    public String getRol() {
-        return rol;
-    }
-
-    public void setRol(String rol) {
-        this.rol = rol;
     }
 
     public String getUsuario() {
