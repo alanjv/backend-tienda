@@ -8,17 +8,17 @@ public class usuarioModelo {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
-    private Integer id_usario;
+    private Integer idtbl_usario;
     private String rol;
     private String usuario;
     private String contrasena;
 
     public Integer getId_usario() {
-        return id_usario;
+        return idtbl_usario;
     }
 
     public void setId_usario(Integer id_usario) {
-        this.id_usario = id_usario;
+        this.idtbl_usario = id_usario;
     }
 
     public String getRol() {
