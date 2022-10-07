@@ -3,6 +3,7 @@ package com.tienda.backend.controladores;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,6 +15,7 @@ import com.tienda.backend.servicios.usuarioServicio;
 
 @RestController
 @RequestMapping("/usuarios")
+@CrossOrigin("*")
 public class usurariosControlador {
 
     @Autowired
