@@ -17,7 +17,7 @@ public class productosServicio {
         return (ArrayList<productosModelo>) productosRepositorio.findAll();
     }
 
-    public productosModelo guardarProducto(productosModelo categoria) {
+    public productosModelo crearProducto(productosModelo categoria) {
         return productosRepositorio.save(categoria);
     }
 
