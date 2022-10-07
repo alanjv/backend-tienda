@@ -16,7 +16,7 @@ import com.tienda.backend.modelos.categoriasModelo;
 import com.tienda.backend.servicios.categoriaServicio;
 
 @RestController
-@RequestMapping("/usuarios")
+@RequestMapping("/categorias")
 @CrossOrigin("*")
 public class categoriasControlador {
 
